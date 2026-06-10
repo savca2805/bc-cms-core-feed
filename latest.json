@@ -1,6 +1,6 @@
 {
-    "version": "1.0.3",
-    "date": "2026-06-05",
-    "notes": "Admin → Users: password change now requires a confirmation field (repeat password) with live match feedback, so a typo can no longer silently set a wrong password and lock the account out.",
+    "version": "1.1.0",
+    "date": "2026-06-10",
+    "notes": "Email sending: Mailer with PHP mail() and SMTP (vendored PHPMailer) transports, Settings → Email, and an admin \"send test email\" button.",
     "url": ""
 }
