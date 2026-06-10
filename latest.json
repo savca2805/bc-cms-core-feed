@@ -1,6 +1,6 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "date": "2026-06-10",
-    "notes": "Email sending: Mailer with PHP mail() and SMTP (vendored PHPMailer) transports, Settings → Email, and an admin \"send test email\" button.",
+    "notes": "Form submissions: public /form/submit endpoint with per-form delivery method/recipient, stored in DB, plus anti-spam (honeypot, time-trap, per-IP rate limit, Cloudflare Turnstile). Email settings split into Email / SMTP / Forms.",
     "url": ""
 }
