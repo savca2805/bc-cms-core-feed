@@ -1,6 +1,6 @@
 {
-    "version": "1.3.3",
+    "version": "1.3.4",
     "date": "2026-06-11",
-    "notes": "Mailer (mail() transport): quoted-printable body + Content-Transfer-Encoding so UTF-8 is not mangled (fixes DKIM body-hash failures / mojibake) and envelope sender (-f) set to the site address so SPF can align. SMTP transport remains the recommended path for deliverability.",
+    "notes": "WebP delivery fix: CSS background images (bc_bg_image_style + MediaRenderer slide tracks) now emit a plain url(webp) override with a url(original) fallback instead of image-set()/type(), which -webkit-image-set ignores and Firefox/Safari <=16 reject — so every WebP-capable browser loads the small .webp instead of the multi-MB original.",
     "url": ""
 }
