@@ -1,6 +1,6 @@
 {
-    "version": "1.3.2",
+    "version": "1.3.3",
     "date": "2026-06-11",
-    "notes": "Forms: optional confirmation (auto-reply) email to the person who submitted, configurable in Settings → Forms ({name}/{site} placeholders). Sent in addition to the owner notification.",
+    "notes": "Mailer (mail() transport): quoted-printable body + Content-Transfer-Encoding so UTF-8 is not mangled (fixes DKIM body-hash failures / mojibake) and envelope sender (-f) set to the site address so SPF can align. SMTP transport remains the recommended path for deliverability.",
     "url": ""
 }
