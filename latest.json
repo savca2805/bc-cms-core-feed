@@ -1,6 +1,6 @@
 {
-    "version": "1.3.0",
-    "date": "2026-06-10",
-    "notes": "Forms: central /form/submit handles all anti-spam automatically (one bc_form_open() helper wires any form); per-form delivery method + recipient + handling (email/save/both). Settings: single Email tab with Mail/SMTP sub-tabs.",
+    "version": "1.3.1",
+    "date": "2026-06-11",
+    "notes": "Forms: AJAX submit — no page reload; result shown inline (sent/error) right in the form. Applies to every form automatically via bc_form_open(); no-JS falls back to a normal POST.",
     "url": ""
 }
